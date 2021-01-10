@@ -1,5 +1,5 @@
 import * as types from '../constants/actionTypes';
-import * from '../types/types.ts';
+import * as new from './../../app/types/types';
 // import { formValueSelector } from 'redux-form';
 
 const initialState = {

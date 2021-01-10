@@ -1,10 +1,10 @@
-import * as types from '../constants/actionTypes'
+import * as types from "../constants/actionTypes";
 
 //* add a trip
 //note sure what kind of payload to enter
 export const addTrip = (values) => ({
-        type: types.ADD_TRIP,
-        payload: values
+  type: types.ADD_TRIP,
+  payload: values,
 });
 
 //* remote a trip
@@ -19,6 +19,6 @@ export const addTrip = (values) => ({
 // });
 
 export const changeModal = (modal: boolean) => ({
-    type: types.CHANGE_MODAL,
-    payload: modal
+  type: types.CHANGE_MODAL,
+  payload: modal,
 });
